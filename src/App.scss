@@ -1,0 +1,71 @@
+.main-container {
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95vw;
+  height: 90vh;
+
+  border: 5px solid black;
+}
+
+.top {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bottom {
+  height: 80%;
+  margin-left: 100px;
+  overflow: scroll;
+}
+.bottom-home {
+  height: 80%;
+
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ages-menu {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width: 300px;
+  justify-content: space-evenly;
+}
+#footer {
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 10px;
+}
+#filterbutton {
+  transition: 1s;
+  cursor: pointer;
+  width: 70px;
+  text-align: center;
+}
+#filterbuttonselected {
+  background-color: rgba(0, 0, 0, 0.329);
+  cursor: pointer;
+  width: 70px;
+  text-align: center;
+}
+
+table {
+  width: 95%;
+}
+th,
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
